@@ -4,9 +4,9 @@ const Editor= () => {
   return (
         <div className="w-[full] h-[770px] bg-[#FAFAFA]">
 
-        <div className="w-[1050px] h-[770px] pt-[80px] pb-[80px] ">
+         <div className="w-[1050px] h-[770px] pt-[80px] pb-[80px] ">
 
-        <div className="w-[607px] h-[62px] ml-[400px]">
+           <div className="w-[607px] h-[62px] ml-[400px]">
             <h4 className="text-xl font-normal text-[#737373] font-Montserrat text-center">Featured Products</h4>
             <h3 className="font-bold text-2xl text-[#252B42] text-center">EDITOR’S PICK</h3>
             <p className="text-sm font-normal text-[#737373] font-Montserrat text-center">Problems trying to resolve the conflict between </p>

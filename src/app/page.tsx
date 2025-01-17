@@ -1,16 +1,21 @@
-import Editor from '@/components/editor';
-import Featured from '@/components/featured';
-import Footer from '@/components/footer';
-import Header from '@/components/header';
-import Hero from '@/components/hero';
-import Seller from '@/components/seller';
-import Summer from '@/components/summer';
-import Vita from '@/components/vita';
+import Editor from "@/components/Editor";
+import Featured from "@/components/Featured";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import LightNavbar from "@/components/LightNavebar";
+import Seller from "@/components/Seller";
+import Summer from "@/components/Summer";
+import Vita from "@/components/Vita";
+
+
+
+
+
 
 const Home = () => {
   return (
     <div>
-    
       <Header/>
       <Hero/>
       <Editor/>
@@ -18,7 +23,17 @@ const Home = () => {
       <Vita/>
       <Summer/>
       <Featured/>
-      <Footer/>
+       <Footer/>
+       
+       
+      
+  
+    
+    
+    
+  
+      
+      
     
     </div>
   

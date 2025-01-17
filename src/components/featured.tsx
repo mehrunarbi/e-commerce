@@ -6,7 +6,7 @@ import { FaChartArea } from "react-icons/fa";
 
 const Featured = () => {
   return (
-    <div className="w-[full] h-[800px] bg-[#FFFFFF] ">
+    <div className="w-[full] h-[750px] bg-[#FFFFFF] ">
       <div className="w-[1050px] h-[1044px] py-[112px]">
         <div className="w-[692px] h-[134px] ml-[300px]">
             <h6 className="text-sm font-bold text-[#23A6F0] text-center">Practice Advice</h6>
