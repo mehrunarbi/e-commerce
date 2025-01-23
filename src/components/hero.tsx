@@ -12,8 +12,7 @@ const Hero = () => {
         alt="Image "
         width={800}
         height={500}
-        objectFit="cover"  // Ensure the image maintains the aspect ratio
-        className="w-full h-full object-cover"
+        className="w-full h-full "
       />
     </div>
 

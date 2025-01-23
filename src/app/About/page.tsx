@@ -8,7 +8,7 @@ import { FaHooli } from "react-icons/fa";
 import { FaLyft } from "react-icons/fa";
 import { FaStripe } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
-import Lightnavbar from "@/components/LightNavebar";
+import Lightnavbar from "@/components/Lightnavbar";
 
 
 const About = () => {

@@ -1,4 +1,4 @@
-import Lightnavbar from '@/components/LightNavebar';
+import Lightnavbar from '@/components/Lightnavbar';
 import Link from 'next/link';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { IoEllipse } from "react-icons/io5";

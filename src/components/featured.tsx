@@ -71,7 +71,7 @@ keystroke away.</p>
  </div>
 </div>
 <div className="w-[328px] h-[606px] pl-[100px]">
-         <Image src={"/images/scene-four.svg"} alt="sorry" width={400} height={300}/>
+         <Image src={"/images/scene-one.svg"} alt="sorry" width={400} height={300}/>
          <div className="w-[348px] h-[306px] pr-[50px]">
             <span className="w-[159px] h-[16px] text-[#737373] text-xs font-normal">Google Trending New</span>
             <h4 className="font-normal text-xl text-[#252B42]">Loudest à la Madison #1 

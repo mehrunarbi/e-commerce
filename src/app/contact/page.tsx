@@ -1,4 +1,4 @@
-import Lightnavbar from '@/components/LightNavebar'
+import Lightnavbar from '@/components/Lightnavbar'
 import Image from 'next/image';
 import { FaTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
