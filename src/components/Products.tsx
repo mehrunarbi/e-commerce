@@ -6,19 +6,19 @@ import Image from "next/image"
 const sanity = sanityClient({
     projectId:"k6asy15f",
     dataset:"production",
-    apiVersion:"2023-01-01",
+    apiVersion: '2025-01-20',
     useCdn:true,
 });
 
 interface Product {
-     id:string;
+     _id:string;
      title: string;
      price:number;
      description:string;
      discountPercentage:number;
      imageUrl: string;
      productImage:{
-        assest:{
+        asset:{
             _ref: string
         };
      };
@@ -26,7 +26,7 @@ interface Product {
 
 };
 
-const ProductCards:React.FC = ()=>{
+  const ProductCards:React.FC = ()=>{
     const [products,setProducts] = useState<Product[]>([]);
     const [cart,setCart] = useState<Product[]>([]);
 
@@ -34,7 +34,7 @@ const ProductCards:React.FC = ()=>{
         try{
             const query = `
              *[_type == "Product"]{
-             id,
+             _id,
              title,
              price,
              description,
@@ -70,12 +70,12 @@ const ProductCards:React.FC = ()=>{
 
     return(
         <div className="p-4">
-            <h2 className="text-center text-slate-800 mt-4 mb-4">Product from API's Data</h2>
+            <h2 className=" text-2xl font-black text-center mt-4 mb-4">Product from API's Data</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {products.map((product)=>(
                     <div
-                    key={product.id}
+                    key={product._id}
                     className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                         <Image
                         src={product.imageUrl}
